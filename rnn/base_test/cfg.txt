@@ -1,0 +1,29 @@
+num_files = 500
+
+seq_length = 25
+vocab_size = 128
+take_last = True
+
+training_ratio = 0.9
+batch_size = 64
+
+out_dims = {
+    'pitch': 128,
+    'step': 1,
+    'duration': 1
+}
+hidden_state_dim = 512
+layer_dim = 1
+dropout = 0
+
+learning_rate = 1e-4
+loss_weights = {
+    'pitch': 0.05,
+    'step': 1.0,
+    'duration': 1.0
+}
+
+n_epochs = 50
+print_progess = 5000
+
+patience = 5
