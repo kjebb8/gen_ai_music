@@ -1,3 +1,3 @@
-# Generative AI Drums
+# Generative AI Music
 
 - Project for generating music with AI
